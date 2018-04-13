@@ -377,17 +377,17 @@ $("#send-mail").click(function () {
 
 function initializeMap() {
 
-    var lat = '25.651435'; //Set your latitude.
-    var lon = '-100.290686'; //Set your longitude.
+    var lat = '25.6623086'; //Set your latitude.
+    var lon = '-100.10886049999999'; //Set your longitude.
 
-    var centerLon = lon - 0.0105;
+    var centerLon = lon;
 
     var myOptions = {
         scrollwheel: false,
         draggable: false,
-        disableDefaultUI: true,
+        disableDefaultUI: false,
         center: new google.maps.LatLng(lat, centerLon),
-        zoom: 15,
+        zoom: 18,
         mapTypeId: google.maps.MapTypeId.ROADMAP
     };
 
